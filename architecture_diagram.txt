@@ -1,0 +1,36 @@
+Medical Records System Architecture
+
+[Frontend]
+├── index.html (Basic Info Submission)
+├── update.html (Record Update)
+└── verify.html (Record Verification)
+
+[Backend]
+├── server.js (Express Server)
+│   ├── POST /api/submit-basic-info
+│   ├── POST /api/update-medical-record/:recordId
+│   └── GET /api/verify/:recordId
+├── medical_records_js/ (Witness Calculation)
+│   └── witness_calculator.js
+└── medical_records/ (Data Storage)
+    ├── [record_id]/
+    │   ├── input.json
+    │   ├── witness.wtns
+    │   ├── proof.json
+    │   └── public.json
+
+[External Dependencies]
+├── snarkjs (Zero-Knowledge Proofs)
+└── express (Web Framework)
+
+[Data Flow]
+1. Frontend → POST /api/submit-basic-info → Create Record
+2. Frontend → POST /api/update-medical-record → Update Record & Generate Proof
+3. Frontend → GET /api/verify → Verify Record
+
+[Key Components]
+- HTML/CSS/JS Frontend Interface
+- Express.js Backend Server
+- snarkjs for Proof Generation/Verification
+- File-based Data Storage
+- Witness Calculator for Circuit Processing

@@ -1,0 +1,11 @@
+{
+  "patientAge": 2,
+  "departmentId": 2,
+  "conditionSeverity": 22,
+  "admissionDate": 2,
+  "dischargeDate": 22,
+  "doctorId": 22,
+  "treatmentCode": 22,
+  "publicDepartmentId": 2,
+  "publicAdmissionYear": 0
+}

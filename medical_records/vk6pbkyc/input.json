@@ -1,0 +1,11 @@
+{
+  "patientAge": 1213,
+  "departmentId": 323,
+  "conditionSeverity": 11,
+  "admissionDate": 8042002,
+  "dischargeDate": 1,
+  "doctorId": 1,
+  "treatmentCode": 1,
+  "publicDepartmentId": 323,
+  "publicAdmissionYear": 0
+}

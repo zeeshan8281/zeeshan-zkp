@@ -1,0 +1,9 @@
+1,1,0,main.publicDepartmentId
+2,2,0,main.publicAdmissionYear
+3,-1,0,main.patientAge
+4,-1,0,main.departmentId
+5,-1,0,main.conditionSeverity
+6,3,0,main.admissionDate
+7,-1,0,main.dischargeDate
+8,-1,0,main.doctorId
+9,-1,0,main.treatmentCode
